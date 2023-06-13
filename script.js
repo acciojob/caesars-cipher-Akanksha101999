@@ -24,7 +24,7 @@ function rot13(encodedStr){
   // Only change code below this line
 
 	let str = "";
-	for(let i = 0; i <decodedArr.length; i++){
+	for(let i = 0; i < decodedArr.length; i++){
 		str += decodedArr[i];
 	}
 	return str;
